@@ -1,0 +1,33 @@
+{
+  "name": "signalbus",
+  "version": "0.0.1",
+  "description": "SignalBus is a lightweight event bus library designed to simplify event-driven programming in JavaScript applications. With SignalBus, you can easily decouple different parts of your application, enabling efficient communication between components without the need for tight coupling.",
+  "main": "dist/index.js",
+  "types": "dist/signalbus.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^9.15.0",
+    "rollup": "^4.27.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
